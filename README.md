@@ -1,2 +1,2 @@
-# Diversio2k23
+# Diversion2k23
 social media app
