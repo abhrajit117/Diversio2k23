@@ -1,8 +1,10 @@
 # Diversion2k23
 
-![Logo](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/connect.png)
+![Logo](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/connect.png)
 
 # Features
+
+![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/landing.png)
 
 -> Connect allows users to create chatrooms based on the topics they want to discuss.
 
