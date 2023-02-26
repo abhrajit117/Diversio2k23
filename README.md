@@ -19,15 +19,19 @@ If vibes match, who knows, you can meet irl ¯⁠\⁠⁠(⁠ツ⁠)⁠⁠/⁠¯
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/landing.png)
 
 **-> Signup Page**
+
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/signup.PNG)
 
 **-> Login Page**
+
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/login.jpeg)
 
 **-> Dashboard**
+
 ![App Screenshot](https://github.com/abhrajit117/Diversion2k23/blob/main/assets/dashboard.PNG)
 
 **-> Dashboard With Chat Window**
+
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/chat.PNG)
 
 # 😎Problems It Solves
