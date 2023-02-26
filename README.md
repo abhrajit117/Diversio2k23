@@ -1,6 +1,6 @@
 # Diversion2k23
 
-![Logo](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/connect.png)
+![Logo](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/connect.png)
 
 # Features
 
@@ -14,21 +14,22 @@ If vibes match, who knows, you can meet irl ¯⁠\⁠⁠(⁠ツ⁠)⁠⁠/⁠¯
 -> You can be anonymous in a discussion, if you want, really!
 
 # 📸Some Glimpses of the Web App
--> Landing Page
+**-> Landing Page**
 
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/landing.png)
 
--> Signup Page
+**-> Signup Page**
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/signup.PNG)
 
--> Login Page
+**-> Login Page**
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/login.jpeg)
 
--> Dashboard
+**-> Dashboard**
 ![App Screenshot](https://github.com/abhrajit117/Diversion2k23/blob/main/assets/dashboard.PNG)
 
--> Dashboard With Chat Window
+**-> Dashboard With Chat Window**
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/chat.PNG)
+
 # Problems It Solves
 
 -> Firstly, there aren't many group-based chatroom services where individuals can have deep conversations on any topic. Every service mainly focuses on one-to-one chat. We got your back here!!
