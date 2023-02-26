@@ -2,7 +2,7 @@
 
 ![Logo](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/connect.png)
 
-# Features
+# 🤩Features
 
 -> Connect allows users to create chatrooms based on the topics they want to discuss.
 
@@ -30,7 +30,7 @@ If vibes match, who knows, you can meet irl ¯⁠\⁠⁠(⁠ツ⁠)⁠⁠/⁠¯
 **-> Dashboard With Chat Window**
 ![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/chat.PNG)
 
-# Problems It Solves
+# 😎Problems It Solves
 
 -> Firstly, there aren't many group-based chatroom services where individuals can have deep conversations on any topic. Every service mainly focuses on one-to-one chat. We got your back here!!
 
@@ -43,7 +43,7 @@ It's up to you, to meet people in the neighbourhood or across the globe, haha :)
 -> You get to show the real you here, through meaningful conversations, and build real connections. 
 
 
-# Tech Stack Used
+# 👨‍💻Tech Stack Used
 
 -> Languages - HTML, CSS, JavaScript, Python
 
@@ -52,6 +52,6 @@ It's up to you, to meet people in the neighbourhood or across the globe, haha :)
 -> Backend Framework - Django 
 
 
-# How to run ?
+# 🏃How to run ?
 
 This is a website, just type in the url and hop into the endless discussions. 
