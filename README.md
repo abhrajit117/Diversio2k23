@@ -4,8 +4,6 @@
 
 # Features
 
-![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/landing.png)
-
 -> Connect allows users to create chatrooms based on the topics they want to discuss.
 
 -> It comes with a location filter. 
@@ -15,7 +13,12 @@ If vibes match, who knows, you can meet irl ¯⁠\⁠⁠(⁠ツ⁠)⁠⁠/⁠¯
 
 -> You can be anonymous in a discussion, if you want, really!
 
-
+# Some Glimpses of the Web App
+![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/landing.png)
+![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/signup.PNG)
+![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/login.jpeg)
+![App Screenshot](https://github.com/abhrajit117/Diversion2k23/blob/main/assets/dashboard.PNG)
+![App Screenshot](https://raw.githubusercontent.com/abhrajit117/Diversion2k23/main/assets/chat.PNG)
 # Problems It Solves
 
 -> Firstly, there aren't many group-based chatroom services where individuals can have deep conversations on any topic. Every service mainly focuses on one-to-one chat. We got your back here!!
