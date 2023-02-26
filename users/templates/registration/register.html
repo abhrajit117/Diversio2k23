@@ -1,0 +1,129 @@
+{%extends 'main/base.html'%} {% block title %}Register{% endblock %} {% comment %}
+{% load crispy_forms_tags %} {% block section1 %}
+<style>
+  .__bg {
+    background-color: #f7b316;
+  }
+</style>
+<div class="h-96 w-full flex items-centre __bg blur-xs">
+  <form method="POST">
+    {% csrf_token %}{{form|crispy}}
+    <p>Don't have an account? Create one <a href="/login">Here</a>!</p>
+    <button type="submit" class="btn btn-success">Login</button>
+  </form>
+  {% endblock %} {% endcomment %} {% block section1 %}
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>Signup</title>
+      <style>
+        .bgPic {
+          background-image: url(./login1.png);
+        }
+        .__bg {
+          background-color: #f7b316;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="h-96 w-full flex items-centre __bg blur-xs">
+        <div
+          class="bgPic h-130 w-72 rounded-2xl m-auto mt-20 shadow-lg blur-xs"
+        >
+          <form class="flex items-center flex-col">
+            <div class="text-3xl my-1 font-bold">connect</div>
+            <input
+              type="hidden"
+              name="csrfmiddlewaretoken"
+              value="oyClUPQ1VZjWseVo8FVwCRWgg4J95udTaLTpeqlHWvDiIDk6npzX9U4Jj4iCmKkY"
+            />
+            <div id="div_id_username" class="mb-3" align="center">
+              <label
+                for="id_username"
+                class="form-label requiredField text-lg font-semibold mt-1"
+              >
+                Username<span class="asteriskField">*</span>
+              </label>
+              <input
+                type="text"
+                name="username"
+                maxlength="150"
+                autofocus
+                class="textinput form-control h-7 wt-1 p-2 w-64 rounded-lg border-2 border-gray-200"
+                required
+                id="id_username"
+              />
+              <div id="hint_id_username" class="form-text" align="center"></div>
+            </div>
+            <div id="div_id_email" class="mb-3" align="center">
+              <label
+                for="id_email"
+                class="form-label requiredField text-lg font-semibold mt-1"
+              >
+                Email<span class="asteriskField">*</span>
+              </label>
+              <input
+                type="email"
+                name="email"
+                class="emailinput form-control h-7 mt-1 p-2 w-64 rounded-lg border-2 border-gray-200"
+                required
+                id="id_email"
+              />
+            </div>
+            <div id="div_id_password1" class="mb-2" align="center">
+              <label
+                for="id_password1"
+                class="form-label requiredField text-lg font-semibold mt-1"
+              >
+                Password<span class="asteriskField">*</span>
+              </label>
+              <input
+                type="password"
+                name="password1"
+                autocomplete="new-password"
+                class="passwordinput form-control h-7 mt-1 p-2 w-64 rounded-lg border-2 border-gray-200"
+                required
+                id="id_password1"
+              />
+            </div>
+            <div id="div_id_password2" class="mb-2" align="center">
+              <label
+                for="id_password2"
+                class="form-label requiredField text-lg font-semibold mt-1"
+              >
+                Password confirmation<span class="asteriskField">*</span>
+              </label>
+              <input
+                type="password"
+                name="password2"
+                autocomplete="new-password"
+                class="passwordinput form-control h-7 mt-1 w-64 p-2 rounded-lg border-2 border-gray-200"
+                required
+                id="id_password2"
+              />
+            </div>
+            <p>
+              Create one account
+              <a
+                href="/login"
+                class="hover:bg-orange-300 bg-orange-400 mt-2 rounded-lg"
+                >Here!</a
+              >
+            </p>
+            <button
+              type="submit"
+              class="btn btn-success p-3 py-2 hover:bg-orange-300 bg-orange-400 mt-2 rounded-lg"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </body>
+  </html>
+</div>
+{%endblock%}

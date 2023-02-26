@@ -1,0 +1,106 @@
+{%extends 'main/base.html'%}
+{%load static%}
+{% load socialaccount%}
+{% block title %}Login{% endblock %}
+{% comment %} {% extends 'main/base.html' %}
+{%load crispy_forms_tags%}
+{% load socialaccount%}
+{% block content %}
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In</legend>
+                    {{ form|crispy }}
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Login</button>
+                <button class="btn btn-outline-info">
+                    <a href="{% provider_login_url 'google'%}?next=/">
+                        <i class="fab fa-google"></i>
+                        Login with Google
+                    </a>
+                </button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Need An Account? <a class="ml-2" href="{% url 'register' %}">Sign Up Now</a>
+            </small><br>
+            <small class="text-muted">
+                <a href="{% url 'password_reset' %}">Forgot password?</a>
+            </small>
+        </div>
+    </div>
+{% endblock content %} {% endcomment %}
+{%block section1%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Signup</title>
+    <style>
+      .bgPic {
+        background-image: url(./login1.png);
+      }
+      /* .__bg {
+        background-color: ;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="h-96 w-full flex items-centre bg-orange-400 blur-xs">
+      <div class="bgPic h-96 w-72 rounded-2xl m-auto mt-20 shadow-lg blur-xs">
+        <form class="flex items-center flex-col" method="POST">
+            {%csrf_token%}
+          <div class="text-3xl my-1 font-bold">connect</div>
+          <div id="div_id_username" class="mb-3">
+          <label for="id_username" class="text-lg font-semibold mt-1 form-label requiredField"
+            >User Name or Email:<span class="asteriskField">*</span></label
+          >
+          <input
+            type="text"
+            class="h-7 mt-1 p-2 w-64 rounded-lg border-2 border-gray-200 form-control textinput"
+            id="id_username"
+            placeholder="username or Email"
+            name="username"
+            maxlength="150"
+            required></div>
+         <div id="div_id_password" class="mb-3">
+          <label class="text-lg font-semibold mt-1 form-label requiredField" for="id_password"
+            >Password:<span class="asteriskField">*</span></label>
+          <input
+            type="password"
+            id="id_password"
+            name="password"
+            class="h-7 mt-1 p-2 w-64 rounded-lg border-2 border-gray-200 form-control passwordinput"
+            required
+            placeholder="Password"
+          />
+
+          <a href="password_reset/">Forgot Password</a>
+
+          <button
+            class="p-3 py-2 hover:bg-orange-300 bg-orange-400 mt-2 rounded-lg"
+            type="submit"
+          >
+            Login</button
+          >
+          <button class="btn btn-outline-info rounded-lg" type = "button" id="button1">
+                    <a href="{% provider_login_url 'google'%}?next=/">
+                        <img src="{% static "images/GoogleLogo.png"%}" width = "25" > 
+                        Login with Google
+                    </a>
+                </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+{%endblock%}
+
